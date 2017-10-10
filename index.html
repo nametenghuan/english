@@ -8,37 +8,31 @@
 
     <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css" />
     
-    <style>
-        body {
-			margin: 0;
-        }
-    </style>
 </head>
 <body>
 
-
-<!--导航栏 class="navbar navbar-inverse"-->
-<nav class="navbar navbar-fixed-top my-navbar" role="navigation">
+<!--导航栏-->
+<!--navbar-default ：实现导航栏背景,inverse：为反色导航条-->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
       <div class="container-fluid">
-        <div class="navbar-header">
-        <a class="navbar-brand" href="#">
-        	<img alt="图标" src="..." />
-      	</a>
-          <button type="button" class="navbar-toggle" data-toggle="collapse"
-                        data-target="#example-navbar-collapse"><span class="sr-only">换导航</span>
+        <div class="navbar-header">        	
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#yc-navbar-collapse">
+              <span class="sr-only">New Achievement</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
           </button>
-			<a class="navbar-brand" href="#">New Achievement</a>
-          </div>
-            <div class="collapse navbar-collapse" id="example-navbar-collapse">
+          <!-- 确保无论是宽屏还是窄屏，navbar-brand都显示 -->
+          <a class="navbar-brand" href="#">新果英语</a>
+        </div>
+            <div class="collapse navbar-collapse" id="yc-navbar-collapse">
+               
                 <ul class="nav navbar-nav">
-                    <li><a href="app">新果简介</a></li>
-                    <li><a href="Primaryschool.html">小学英语</a></li>
-                    <li><a href="#">初中英语</a></li>
-                    <li><a href="#">高中英语</a></li>
+                    
+                    <li><a href="Primaryschool.html" class="">小学英语</a></li>
+                    <li><a href="#" class="">初中英语</a></li>
+                    <li><a href="#" class="">高中英语</a></li>
                     
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">新概念英语<b class="caret"></b></a>
@@ -50,12 +44,20 @@
                             <li class="divider"></li>
                             <li><a href="#">新概念的学习方法</a></li>
                             <li class="divider"></li>
-                            <li><a href="#">另一个分离的链接</a></li>
+                            <li class="dropdown-header">标题</li>
                         </ul>
                     </li>
                     <li><a href="#">大学英语</a></li>
+                    <li class="dropdown">
+                    	<a href="app" class="dropdown-toggle" data-toggle="dropdown">关于我们<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        	<li><a href="#">讲师信息</a></li>
+                            <li><a href="#">教学特色</a></li>
+                            <li><a href="#">教学环境</a></li>
+                        </ul>
+                    </li>
                     <li>
-	                    <form class="navbar-form navbar-left" role="search">
+	                    <form class="navbar-form" role="search">
   							<div class="form-group">
 						    <input type="text" class="form-control" placeholder="Search">
 							</div>
@@ -79,6 +81,63 @@
     <div class="panel-body">
         <a href="recommend.html">专接本英语10月份开课啦，快来学习吧~~~</a>
     </div>
+</div>
+
+<div class="container">
+    <div class="row">
+		<div class="col-xs-6 col-md-3">
+			<a href="#" class="thumbnail">
+				<img src="image/hemo1.jpg" style="height: 180px; width: 100%; display: block;" alt="english">
+			</a>
+			<div class="caption">
+				<h3>New Concept English</h3>
+				<p>《新概念英语》（New Concept English）作为享誉全球的最为经典地道的英语教材，以其严密的体系性、严谨的科学性，精湛的实用性，浓郁的趣味性深受英语学习者的青睐，《新概念英语》在中国有20多年的历史，每年有数百万学习者，早已成为英语学习者的必选读物。</p>
+				<p>
+					<a href="##" class="btn btn-info">体验课程</a>
+					<a href="##" class="btn btn-success">购买课程</a>
+				</p>
+			</div>  
+		</div>
+        <div class="col-xs-6 col-md-3">
+			<a href="#" class="thumbnail">
+				<img src="image/hemo1.jpg" style="height: 180px; width: 100%; display: block;" alt="english">
+			</a>
+			<div class="caption">
+				<h3>New Concept English</h3>
+				<p>《新概念英语》（New Concept English）作为享誉全球的最为经典地道的英语教材，以其严密的体系性、严谨的科学性，精湛的实用性，浓郁的趣味性深受英语学习者的青睐，《新概念英语》在中国有20多年的历史，每年有数百万学习者，早已成为英语学习者的必选读物。</p>
+				<p>
+					<a href="##" class="btn btn-info">体验课程</a>
+					<a href="##" class="btn btn-success">购买课程</a>
+				</p>
+			</div>  
+		</div>
+        <div class="col-xs-6 col-md-3">
+			<a href="#" class="thumbnail">
+				<img src="image/hemo1.jpg" style="height: 180px; width: 100%; display: block;" alt="english">
+			</a>
+			<div class="caption">
+				<h3>New Concept English</h3>
+				<p>《新概念英语》（New Concept English）作为享誉全球的最为经典地道的英语教材，以其严密的体系性、严谨的科学性，精湛的实用性，浓郁的趣味性深受英语学习者的青睐，《新概念英语》在中国有20多年的历史，每年有数百万学习者，早已成为英语学习者的必选读物。</p>
+				<p>
+					<a href="##" class="btn btn-info">体验课程</a>
+					<a href="##" class="btn btn-success">购买课程</a>
+				</p>
+			</div>  
+		</div>
+        <div class="col-xs-6 col-md-3">
+			<a href="#" class="thumbnail">
+				<img src="image/hemo1.jpg" style="height: 180px; width: 100%; display: block;" alt="english">
+			</a>
+			<div class="caption">
+				<h3>New Concept English</h3>
+				<p>《新概念英语》（New Concept English）作为享誉全球的最为经典地道的英语教材，以其严密的体系性、严谨的科学性，精湛的实用性，浓郁的趣味性深受英语学习者的青睐，《新概念英语》在中国有20多年的历史，每年有数百万学习者，早已成为英语学习者的必选读物。</p>
+				<p>
+					<a href="##" class="btn btn-info">体验课程</a>
+					<a href="##" class="btn btn-success">购买课程</a>
+				</p>
+			</div>  
+		</div>
+	</div>
 </div>
 
 <div class="panel-group" id="accordion">
@@ -167,11 +226,41 @@
 <h1>123</h1>
 <h1>123</h1>
 <h1>123</h1>
-
-
+<h1>123</h1>
+<h1>123</h1>
+<h1>123</h1>
+<h1>123</h1>
+<h1>123</h1>
+<h1>123</h1>
+<h1>123</h1>
+<h1>123</h1>
 
 
 <table class="table table-hover">
+    <tr>
+        <td>带鼠标移入变亮显示的表格</td>
+        <td>123123123123123</td>
+    </tr>
+    <tr>
+        <td>带鼠标移入变亮显示的表格</td>
+        <td>123123123123123</td>
+    </tr>
+    <tr>
+        <td>带鼠标移入变亮显示的表格</td>
+        <td>123123123123123</td>
+    </tr>
+    <tr>
+        <td>带鼠标移入变亮显示的表格</td>
+        <td>123123123123123</td>
+    </tr>
+    <tr>
+        <td>带鼠标移入变亮显示的表格</td>
+        <td>123123123123123</td>
+    </tr>
+    <tr>
+        <td>带鼠标移入变亮显示的表格</td>
+        <td>123123123123123</td>
+    </tr>
     <tr>
         <td>带鼠标移入变亮显示的表格</td>
         <td>123123123123123</td>
